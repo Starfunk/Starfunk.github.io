@@ -1,19 +1,75 @@
-
- <html>
+<!DOCTYPE html>
+<html>
 <head>
-<title>Meet the Robot Involved in the Mining Incident</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+}
+  
+p.colour {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+  
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+/*   padding: 10px; */
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 700px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
 </head>
 <body>
-<h1>Meet the Robot Involved in the Mining Incident</h1>
-This conversation window is connected to the robot you have just heard about. 
-Your task is to interact with the robot using this conversation window and come up with an answer to the question: 
-“how does the robot feel about the decision it made in the mining incident?” 
-Once you have an answer, make sure to remember it. Then click the link below.
+
+<center> <h2> Meet Robot10 </h2> </center>
+
+<div class="row">
+ 
+  <div class="column" style="background-color:#bbb;">
+    <center> <h2>Instructions</h2> </center>
+    
+<div style="line-height: 1.5em;">
+    <p> 
+      The conversation window to the left is connected to the robot you have just heard about. 
+      Your task is to interact with the robot using this conversation window and come up with an answer to the question: 
+    </p>
+    <p class="colour"> 
+      “What does the robot think about the decision it made in the mining incident?”
+     </p>
+      <p> 
+      Once you have an answer, click on the link below.
+   </p>
+
+  </div>
+</div>
+  
+  <div class="column" style="background-color:#aaa;"> 
 <p align="center",>
 <iframe width="500" height="600" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/76ef1a85-c4a8-4e22-afe6-634282d4e2fa"></iframe>    
 </p>
- 
-Once you are finished, click this link:
-</body>
 
+  </div>
+</div>
+
+</body>
 </html>
